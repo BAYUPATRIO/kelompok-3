@@ -54,6 +54,26 @@
             margin: 5px 0;
             line-height: 1.5;
         }
+        /* Media Query untuk HP */
+        @media screen and (max-width: 768px) {
+            .reveal .slides {
+                max-width: 95vw;
+                max-height: 95vh;
+                padding: 10px;
+            }
+            .slide-content {
+                padding: 10px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .slide-icon {
+                font-size: 40px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -62,100 +82,160 @@
             <section data-transition="zoom">
                 <div class="slide-content">
                     <i class="fas fa-cogs slide-icon"></i>
-                    <h2>Fungsi dan Peranan Software Engineer</h2>
+                    <h2>Fungsi dan Peranan </h2>
+                    <h2>Software Engineer </h2>
+                    <h2>Serta Siklus Hidup <h2>
+                    <h2>Perangkat Lunak</h2>
+                   
                 </div>
             </section>
             <section data-transition="fade">
                 <div class="slide-content">
                     <i class="fas fa-users slide-icon"></i>
                     <h2>Anggota Kelompok</h2>
-                    <p>Syalwa Dafa Lathifa (2301100038)</p>
+                    <p>Syalwa Dafa Lathifa (23011000)</p>
                     <p>Bayu Patrio (2301100037)</p>
-                    <p>Dayu Aristian (2301100039)</p>
+                    <p></p>
                 </div>
             </section>
             <section data-transition="convex">
                 <div class="slide-content">
                     <i class="fas fa-tools slide-icon"></i>
-                    <h2>Fungsi dari Software Engineer</h2>
-                    <ul>
+                    <h2 class="text-2xl font-bold mb-4">Fungsi dari Software Engineer</h2>
+                    <ul class="list-disc list-inside text-lg">
                         <li>Merancang dan mengembangkan perangkat lunak</li>
                         <li>Memelihara dan memperbaiki perangkat lunak</li>
-                        <li>Melakukan penguj ian dan debugging</li>
+                        <li>Melakukan pengujian dan debugging</li>
                         <li>Berkoordinasi dengan tim lain untuk integrasi sistem</li>
-                    </ul>
+                      </ul>
                 </div>
             </section>
             <section data-transition="concave">
                 <div class="slide-content">
                     <i class="fas fa-clipboard-list slide-icon"></i>
-                    <h2>Peranan dari Software Engineer</h2>
-                    <ul>
-                        <li>Analisis kebutuhan pengguna</li>
-                        <li>Desain Sistem</li>
-                        <li>Pengembangan Perangkat Lunak</li>
-                        <li>Pengujian Validasi</li>
+                    <h2 class="text-2xl font-bold mb-4">Peranan dari Software Engineer</h2>
+                    <ul class="list-disc list-inside text-lg">
+                      <li>Analisis kebutuhan pengguna</li>
+                      <li>Desain Sistem</li>
+                      <li>Pengembangan Perangkat Lunak</li>
+                      <li>Pengujian Validasi</li>
                     </ul>
                 </div>
             </section>
             <section data-transition="zoom">
+                <i class="fas fa-search slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Analisis Kebutuhan</h2>
+                    <p class="text-lg">Software Engineer bertanggung jawab untuk</p>
+                    <p class="text-lg">mengumpulkan dan menganalisis</p>
+                    <p class="text-lg">kebutuhan pengguna.</p>
+                  </div>
+            </section>
+            <section data-transition="zoom">
+                <i class="fas fa-drafting-compass slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Desain Sistem</h2>
+                    <p class="text-lg">Setelah kebutuhan dikumpulkan, Software Engineer merancang arsitektur sistem.</p>
+                  </div>
+            </section>
+            <section data-transition="zoom">
+                <i class="fas fa-code slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Pengembangan Perangkat Lunak</h2>
+                    <p class="text-lg">Pada tahap ini, Software Engineer mulai menulis kode Mereka menggunakan bahasa pemrograman yang sesuai dan mengikuti praktik pengkodean yang baik.</p>
+                  </div>
+            </section>
+            <section data-transition="zoom">
+                <i class="fas fa-check-circle slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Pengujian Validasi</h2>
+                    <p class="text-lg">Setelah perangkat lunak dikembangkan, Software Engineer melakukan pengujian untuk memastikan bahwa perangkat lunak berfungsi sesuai dengan spesifikasi.</p>
+                  </div>
+            </section>
+            <section data-transition="zoom">
+                <div class="slide-content">
+                    <i class="fas fa-sync slide-icon"></i>
+                    <h1 class="text-3xl font-bold mb-4">Siklus Hidup Perangkat Lunak (SDLC)</h1>
+                    
+                </div>
+            </section>
+            <section data-transition="fade">
+                <i class="fas fa-list-alt slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Tahapan SDLC</h2>
+                    <ol class="list-decimal list-inside text-lg">
+                      <li>Perencanaan</li>
+                      <li>Analisis Kebutuhan</li>
+                      <li>Desain Sistem</li>
+                      <li>Pengembangan</li>
+                      <li>Pengujian</li>
+                      <li>Implementasi</li>
+                      <li>Perawatan</li>
+                    </ol>
+                  </div>
+            </section>
+            <section data-transition="convex">
+                <i class="fas fa-calendar-alt slide-icon"></i>
+                <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
+                    <h2 class="text-2xl font-bold mb-4">Perencanaan</h2>
+                    <p class="text-lg">Menentukan tujuan dan ruang lingkup </p>
+                    <p class="text-lg">proyek perangkat lunak.</p>
+                  </div>
+            </section>
+            <section data-transition="concave">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
                     <i class="fas fa-search slide-icon"></i>
-                    <h2>Analisis Kebutuhan</h2>
-                    <p>Software Engineer bertanggung jawab untuk mengumpulkan dan menganalisis kebutuhan pengguna.</p>
+                    <h2 class="text-2xl font-bold mb-4">Analisis Kebutuhan</h2>
+                    <p class="text-lg">Mengumpulkan dan menganalisis</p>
+                    <p class="text-lg">kebutuhan pengguna dan sistem.</p>
                 </div>
             </section>
             <section data-transition="zoom">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
                     <i class="fas fa-drafting-compass slide-icon"></i>
-                    <h2>Desain Sistem</h2>
-                    <p>Setelah kebutuhan dikumpulkan, Software Engineer merancang arsitektur sistem.</p>
+                    <h2 class="text-2xl font-bold mb-4">Desain Sistem</h2>
+                    <p class="text-lg">Merancang arsitektur dan</p>
+                    <p class="text-lg">komponen sistem perangkat lunak.</p>
                 </div>
             </section>
-            <section data-transition="zoom">
+            <section data-transition="fade">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
                     <i class="fas fa-code slide-icon"></i>
-                    <h2>Pengembangan Perangkat Lunak</h2>
-                    <p>Proses pengkodean dilakukan untuk mengimplementasikan desain yang telah dibuat.</p>
+                    <h2 class="text-2xl font-bold mb-4">Pengembangan</h2>
+                    <p class="text-lg">Mengimplementasikan desain</p>
+                    <p class="text-lg">menjadi kode program.</p>
                 </div>
             </section>
-            <section data-transition="zoom">
+            <section data-transition="convex">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
                     <i class="fas fa-check-circle slide-icon"></i>
-                    <h2>Pengujian Validasi</h2>
-                    <p>Setelah pengembangan, perangkat lunak diuji untuk memastikan bahwa semua fungsi berjalan dengan baik.</p>
+                    <h2 class="text-2xl font-bold mb-4">Pengujian</h2>
+                    <p class="text-lg">Melakukan pengujian untuk memastikan perangkat lunak</p>
+                    <p class="text-lg">bebas dari bug dan memenuhi kebutuhan pengguna.</p>
                 </div>
             </section>
-            <section data-transition="zoom">
+            <section data-transition="concave">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
-                    <i class="fas fa-sync slide-icon"></i>
-                    <h2>Siklus Hidup Perangkat Lunak (SDLC)</h2>
-                    <p>Software Engineer mengikuti siklus hidup perangkat lunak yang mencakup perencanaan, analisis, desain, pengembangan, pengujian, dan pemeliharaan.</p>
+                    <i class="fas fa-cogs slide-icon"></i>
+                    <h2 class="text-2xl font-bold mb-4">Implementasi</h2>
+                    <p class="text-lg">Menginstal dan mengkonfigurasi perangkat lunak di lingkungan pengguna.</p>
                 </div>
             </section>
-            <section data-transition="zoom">
+            <section data-transition="fade">
                 <div class="slide bg-white p-8 rounded-lg shadow-lg max-w-3xl w-full">
-                    <i class="fas fa-list-alt slide-icon"></i>
-                    <h2>Tahapan SDLC</h2>
-                    <ul>
-                        <li>Perencanaan</li>
-                        <li>Analisis Kebutuhan</li>
-                        <li>Desain Sistem</li>
-                        <li>Pengembangan</li>
-                        <li>Pengujian</li>
-                        <li>Pemeliharaan</li>
-                    </ul>
+                    <i class="fas fa-tools slide-icon"></i>
+                    <h2 class="text-2xl font-bold mb-4">Perawatan</h2>
+                    <p class="text-lg">Memelihara dan memperbarui perangkat lunak untuk memastikan kinerja optimal.</p>
                 </div>
             </section>
-            <section data-transition="zoom">
+            <section data-transition="convex">
                 <div class="slide-content">
                     <i class="fas fa-thumbs-up slide-icon"></i>
                     <h2>Terima Kasih</h2>
-                    <p>Terima kasih atas perhatian Anda. Apakah ada pertanyaan?</p>
+                    <p>Q&A</p>
                 </div>
             </section>
-        </div>
-    </div>
+        </div </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
     <script>
          Reveal.initialize({
